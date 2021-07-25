@@ -1,5 +1,5 @@
 # Made with Python3
-# (C) Vivek-TP and FayasNoushad
+# (C) Vivek-TP and FayasNoushad and Vilan
 
 import os
 from pyrogram import Client, filters
@@ -31,10 +31,10 @@ HELP_TEXT = """
 ⭕️ Use /id in Group or Channel to get Unique Telegram ID
 """
 ABOUT_TEXT = """
-- **Bot :** `Info Bot`
-- **Creator :** [Vivek](https://telegram.me/Vivek_KERALA)
+- **Bot :** `IdFounderBot`
+- **Creator :** [Mʀ ᴜɴᴋɴᴡᴏɴ](https://telegram.me/Abhi_vilan)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/vivek-tp/Info-Bot)
+- **Support :** [Support To My Group](https://telegram.me/Dengerousbots)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -42,26 +42,26 @@ ABOUT_TEXT = """
 
 BOT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="Support", url=f"https://telegram.me/Dengerousbots")
         ]]
     )
 
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="Support", url=f"https://telegram.me/Dengerousbots")
         ]]
     )
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="Support", url=f"https://telegram.me/Dengerousbots")
         ]]
     )
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="Support", url=f"https://telegram.me/Dengerousbots")
         ]]
     )
                 
